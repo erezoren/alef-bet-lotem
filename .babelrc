@@ -1,3 +1,38 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "minify",
+          {
+            "builtIns": false,
+            "booleans": true,
+            "consecutiveAdds": true,
+            "deadcode": true,
+            "evaluate": true,
+            "flipComparisons": true,
+            "guards": true,
+            "infinity": true,
+            "mangle": true,
+            "memberExpressions": true,
+            "mergeVars": true,
+            "numericLiterals": true,
+            "propertyLiterals": true,
+            "regexpConstructors": true,
+            "removeDebugger": true,
+            "removeUndefined": false,
+            "replace": true,
+            "simplify": true,
+            "simplifyComparisons": true,
+            "typeConstructors": true,
+            "undefinedToVoid": true
+          }
+        ]
+      ]
+    }
+  }
 }

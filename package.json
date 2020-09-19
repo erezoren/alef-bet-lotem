@@ -25,7 +25,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "webpack --mode production"
+    "build": "NODE_ENV=production BABEL_ENV=production webpack -p --mode production --env.NODE_ENV=production --env.BABEL_ENV=production --env.production"
   },
   "eslintConfig": {
     "extends": "react-app"
