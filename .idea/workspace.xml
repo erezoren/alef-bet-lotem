@@ -62,14 +62,14 @@
           <entry key="babelrc" value="14" />
           <entry key="gitignore" value="32" />
           <entry key="js" value="4446" />
-          <entry key="json" value="35" />
+          <entry key="json" value="37" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="32" />
-          <entry key="JSON" value="49" />
+          <entry key="JSON" value="51" />
           <entry key="JavaScript" value="4446" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
@@ -144,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="42" column="190" selection-start-line="42" selection-start-column="190" selection-end-line="42" selection-end-column="190" />
+            <state relative-caret-position="60">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -289,7 +289,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605458579041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605459068238" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -391,7 +391,7 @@
       <workItem from="1601144607733" duration="4016000" />
       <workItem from="1602178405872" duration="5518000" />
       <workItem from="1605278476605" duration="24185000" />
-      <workItem from="1605440900546" duration="14051000" />
+      <workItem from="1605440900546" duration="14533000" />
     </task>
     <task id="LOCAL-00001" summary="added media">
       <created>1605454598214</created>
@@ -411,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56343000" />
+    <option name="totallyTimeSpent" value="56825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -654,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="42" column="190" selection-start-line="42" selection-start-column="190" selection-end-line="42" selection-end-column="190" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
