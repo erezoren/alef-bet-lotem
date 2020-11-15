@@ -43,7 +43,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "NODE_ENV=production BABEL_ENV=production webpack -p --mode production --env.NODE_ENV=production --env.BABEL_ENV=production --env.production",
+    "heroku-postbuild": "yarn --only=dev && yarn && yarn run build",
     "build":"yarn && yarn run build"
   },
   "eslintConfig": {
