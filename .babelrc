@@ -1,4 +1,5 @@
 {
+
   "presets": [
     "@babel/preset-env",
     "@babel/preset-react"
@@ -34,5 +35,26 @@
         ]
       ]
     }
-  }
+  },
+  "plugins": [
+    "@babel/plugin-proposal-function-bind",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-function-sent",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-transform-runtime",
+    "transform-class-properties",
+    ["transform-imports", {
+      "react-bootstrap": {
+        "transform": "react-bootstrap/${member}",
+        "preventFullImport": true
+      },
+      "lodash": {
+        "transform": "lodash/${member}",
+        "preventFullImport": true
+      }
+    }]
+  ]
 }
