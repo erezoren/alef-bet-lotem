@@ -37,12 +37,12 @@
   },
   "scripts": {
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot --compress",
-    "server": "node --inspect --max-heap-size=8192 index.js",
+    "server": "node  index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node index.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-prebuild": "webpack -p"
   },
   "eslintConfig": {
     "extends": "react-app"
