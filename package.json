@@ -1,6 +1,7 @@
 {
   "name": "alef-bet-lotem",
   "version": "0.1.0",
+  "main": "index.js",
   "engines": {
     "node": "12.16.1",
     "yarn": "1.21.1"
@@ -44,8 +45,8 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "node index.js",
-    "heroku-postbuild": "webpack -p"
+    "start": "yarn start",
+    "build": "react-scripts build && yarn install"
   },
   "eslintConfig": {
     "extends": "react-app"
