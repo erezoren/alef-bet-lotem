@@ -43,7 +43,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "yarn start",
-    "build": "react-scripts build && yarn install"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
