@@ -1,7 +1,6 @@
 {
   "name": "alef-bet-lotem",
   "version": "0.1.0",
-  "main": "index.js",
   "engines": {
     "node": "12.16.1",
     "yarn": "1.21.1"
