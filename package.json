@@ -52,7 +52,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node index.js",
-    "build": "webpack --mode=production",
+    "build": "webpack -mode production",
     "start-all": "yarn run build && node index.js",
     "heroku-postbuild": "yarn && yarn run build",
     "heroku-prebuild": "yarn cache clean --all"
