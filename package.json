@@ -45,9 +45,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node index.js",
-    "build": "webpack -p && react-scripts build",
+    "build": "webpack -p",
     "start-all": "yarn run build && node index.js",
-    "heroku-postbuild": "yarn && yarn --only=dev --no-shrinkwrap && yarn run build"
+    "heroku-postbuild": "yarn && yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
