@@ -8,8 +8,8 @@ module.exports = env => {
   return {
     entry: './src/client/index.js',
     output: {
-      path: path.join(__dirname, outputDirectory),
-      filename: 'bundle.js'
+      filename: '[name].js',
+      path: path.resolve(__dirname, 'dist')
     },
     optimization: {
       runtimeChunk: 'single',
