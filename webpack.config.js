@@ -8,7 +8,7 @@ module.exports = env => {
   return {
     entry: './src/client/index.js',
     output: {
-      filename: '[name].js',
+      filename: 'index.js',
       path: path.resolve(__dirname, 'dist')
     },
     optimization: {
