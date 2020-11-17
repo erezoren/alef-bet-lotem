@@ -520,7 +520,7 @@
     "@babel/helper-create-class-features-plugin" "^7.12.1"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-proposal-throw-expressions@^7.10.4":
+"@babel/plugin-proposal-throw-expressions@^7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-throw-expressions/-/plugin-proposal-throw-expressions-7.12.1.tgz#5adf4abc7f349a2da532e663b36251f6017c4279"
   integrity sha512-kiWkKtm05K86C+T/nUazv+/Vxu93Aulrvof/ZrxVyGoUBVsVEWDrw9iChbe8tV+aPVQcjg4FQxKW3wUF7cRcpg==
