@@ -45,7 +45,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node index.js",
-    "build": "webpack -p",
+    "build": "react-scripts build",
     "start-all": "yarn run build && node index.js",
     "heroku-postbuild": "yarn && yarn --only=dev --no-shrinkwrap && yarn run build"
   },
