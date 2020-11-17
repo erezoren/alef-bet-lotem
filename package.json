@@ -44,11 +44,11 @@
   "scripts": {
     "webpack": "webpack",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-    "server": "node index.js",
+    "server": "nodemon index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "node server.js",
+    "start": "npm run build && node index.js",
     "start:original": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "build": "webpack --mode production",
     "start-all": "npm run build && node index.js",
