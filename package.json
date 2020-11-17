@@ -50,8 +50,7 @@
     "start": "node index.js",
     "build": "webpack --mode production",
     "start-all": "yarn run build && node index.js",
-    "heroku-postbuild": "yarn && yarn run build",
-    "heroku-prebuild": "yarn cache clean --all && npm cache clean "
+    "heroku-postbuild": "yarn && yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
