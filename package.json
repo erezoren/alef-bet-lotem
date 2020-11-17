@@ -21,6 +21,7 @@
     "antd": "^4.6.5",
     "axios": "^0.20.0",
     "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-imports": "^2.0.0",
     "babel-preset-minify": "^0.5.1",
@@ -39,7 +40,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "webpack":"webpack",
+    "webpack": "webpack",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "node index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
