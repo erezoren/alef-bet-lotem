@@ -15,6 +15,7 @@
     "@babel/plugin-proposal-function-sent": "^7.10.4",
     "@babel/plugin-proposal-numeric-separator": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.11.5",
+    "@symfony/webpack-encore": "^0.31.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -47,10 +48,11 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:original": "if-env NODE_ENV=production && yarn run production || yarn run dev",
+    "start": "node server.js",
+    "start:original": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "build": "webpack --mode production",
-    "start-all": "yarn run build && node index.js",
-    "heroku-postbuild": "yarn && yarn run build"
+    "start-all": "npm run build && node index.js",
+    "heroku-postbuild": "npm && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

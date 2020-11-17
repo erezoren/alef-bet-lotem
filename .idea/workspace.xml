@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="package-lock.json" />
@@ -101,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="49" column="85" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
+              <caret line="49" column="90" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -138,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -272,7 +274,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605640248215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605641053642" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -405,7 +407,7 @@
       <workItem from="1605278476605" duration="24185000" />
       <workItem from="1605440900546" duration="18987000" />
       <workItem from="1605516424507" duration="139000" />
-      <workItem from="1605516950369" duration="16708000" />
+      <workItem from="1605516950369" duration="17187000" />
     </task>
     <task id="LOCAL-00001" summary="added media">
       <created>1605454598214</created>
@@ -656,7 +658,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78126000" />
+    <option name="totallyTimeSpent" value="78605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -932,14 +934,14 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="49" column="85" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
+          <caret line="49" column="90" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="90" />
         </state>
       </provider>
     </entry>
