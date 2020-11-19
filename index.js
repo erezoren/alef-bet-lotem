@@ -4,8 +4,7 @@ const topicsApi = require('./src/server/routs/topics');
 const gameApi = require('./src/server/routs/game');
 
 const app = express();
-
-app.use(express.static('dist'));
+app.use(express.static(__dirname + '/dist'));
 app.use(express.json());
 
 app.get('/api/', (req, res) => {
