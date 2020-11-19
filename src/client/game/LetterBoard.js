@@ -2,13 +2,11 @@ import React, {useEffect, useState} from 'react'
 import {Letter} from "./Letter";
 import {Space} from "antd";
 
-const baseSoundsDir = '../../../sounds/common/'
 
-const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
-const audioFailure = new Audio(`${baseSoundsDir}failure.mp3`);
 
-const letters = "אבגדהוזחטיכלמנסעפצקרשת".split('');
-export const LetterBoard = ({imageLetter, onSuccess}) => {
+
+const letters = "אבגדהוזחטיכלמנסעפצקרשתםןץף".split('');
+export const LetterBoard = ({imageLetter, onSuccess,onFailure}) => {
   const [success, setSuccess] = useState(null);
   const [letter, setLetter] = useState(null);
   const [status, setStatus] = useState(<h2>מהי האות?</h2>);
@@ -16,13 +14,12 @@ export const LetterBoard = ({imageLetter, onSuccess}) => {
   useEffect(() => {
     if (success !== null) {
       if (success) {
-        audioSuccess.play();
         setSuccess(null)
         onSuccess();
         setStatus(<h2>מהי האות?</h2>);
       }
       else {
-        audioFailure.play()
+        onFailure();
         setStatus(<div style={{display: "inline-block"}}>
           <h2
               style={{color: "red"}}>נסה שוב</h2>

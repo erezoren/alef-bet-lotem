@@ -5,7 +5,9 @@ import {Score} from "../home/Score";
 import QuestionCircleOutlined
   from "@ant-design/icons/es/icons/QuestionCircleOutlined";
 import {Tooltip} from "antd";
-
+const baseSoundsDir = '../../../sounds/common/'
+const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
+const audioFailure = new Audio(`${baseSoundsDir}failure.mp3`);
 const NO_DATA = "NO_DATA";
 
 export const Game = ({gameId}) => {
@@ -63,13 +65,20 @@ export const Game = ({gameId}) => {
         <div>
           {
             <h1>
-              {game ? (game === NO_DATA ? "אין מידע למשחק" : <div><img
-                          width={"300px"}
+              {game ? (game === NO_DATA ? "אין מידע למשחק" : <div>
+                        <img
+                          height={"250px"}
                           src={rand.imagePath}/>
                         <div><LetterBoard imageLetter={rand.letter}
                                           onSuccess={() => {
                                             setScore(score + 1);
-                                          }}/>
+                                            audioSuccess.play();
+                                          }}
+                                          onFailure={() => {
+                                            setScore(score - 1);
+                                            audioFailure.play()
+                                          }}
+                        />
                           <Tooltip title={rand.hint}>
                             <QuestionCircleOutlined/>
                           </Tooltip>
