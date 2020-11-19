@@ -53,7 +53,7 @@
     "start:original": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "build": "webpack --mode production",
     "start-all": "npm run build && node index.js",
-    "heroku-postbuild": "npm run build && npm run start"
+    "heroku-postbuild": "npm run start-all"
   },
   "eslintConfig": {
     "extends": "react-app"
