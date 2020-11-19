@@ -1,3 +1,8 @@
 {
-  "root": "dist/"
+  "root": "dist/",
+  "proxies": {
+    "/": {
+      "origin": "localhost:8080"
+    }
+  }
 }
