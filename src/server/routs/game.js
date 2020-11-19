@@ -2,7 +2,7 @@ let express = require('express');
 let router = express.Router();
 const fs = require('fs')
 const path = require('path');
-const baseMediaLocationDir = ' ../../../images/games/'
+const baseMediaLocationDir = express.static(__dirname + '/dist/../../../images/games/')
 const idToMediaLocationMap={1:"pokemon",2:"soccer",3:"bends"}
 
 let hardCodedGamesData = {}
