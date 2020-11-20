@@ -17,12 +17,12 @@ export const Home = (props) => {
   const [page, setPageId] = useState("1");
 
   useEffect(() => {
-    getTopics().then((resp) => setTopics(resp))
+    getTopics().then((resp) => setTopics(resp));
     return function cancel() {
       setTopics([]);
     }
 
-  }, [])
+  }, []);
 
   const getTopics = async () => {
     return API.get(
@@ -41,7 +41,7 @@ export const Home = (props) => {
       throw e;
     })
 
-  }
+  };
 
   const renderTopics = () => {
 
@@ -82,12 +82,12 @@ export const Home = (props) => {
   const renderGame = () => {
     switch (page) {
       case "1":
-        return <AlefBet/>
+        return <AlefBet/>;
       case "2":
         return <h1>Not implemented yet</h1>
     }
 
-  }
+  };
 
   function AlefBet() {
     return <div>
@@ -95,7 +95,12 @@ export const Home = (props) => {
         {renderTopics()}
       </div>
       <Divider/>
-      {gameId && <Game setScore={setScore} gameId={gameId}/>}
+      {gameId && <Game setWin={(win)=>{
+        if(win)
+        setScore(s=>s+1);
+        else
+          setScore(s=>s-1)
+      }} gameId={gameId}/>}
     </div>
   }
   return (
@@ -125,4 +130,4 @@ export const Home = (props) => {
       </Layout>
   )
 
-}
+};

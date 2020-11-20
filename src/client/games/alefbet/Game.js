@@ -5,12 +5,12 @@ import QuestionCircleOutlined
   from "@ant-design/icons/es/icons/QuestionCircleOutlined";
 import {Tooltip} from "antd";
 
-const baseSoundsDir = '../../../sounds/common/'
+const baseSoundsDir = '../../../sounds/common/';
 const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
 const audioFailure = new Audio(`${baseSoundsDir}failure.mp3`);
 const NO_DATA = "NO_DATA";
 
-export const Game = ({gameId, setScore}) => {
+export const Game = ({gameId, setWin}) => {
 
   const [game, setGame] = useState(undefined);
 
@@ -20,7 +20,7 @@ export const Game = ({gameId, setScore}) => {
       setGame(undefined);
     }
 
-  }, [gameId])
+  }, [gameId]);
 
   const getGame = async () => {
     return API.get(
@@ -39,7 +39,7 @@ export const Game = ({gameId, setScore}) => {
       throw e;
     })
 
-  }
+  };
 
   const randomLetter = () => {
     if (game && game !== NO_DATA && game.images.length > 0) {
@@ -52,11 +52,11 @@ export const Game = ({gameId, setScore}) => {
       }
 
     }
-  }
+  };
 
   const getRandomArbitrary = (min, max) => {
     return Math.round(Math.random() * (max - min) + min);
-  }
+  };
 
   let rand = randomLetter();
   return (
@@ -71,11 +71,11 @@ export const Game = ({gameId, setScore}) => {
                             src={rand.imagePath}/>
                         <div><LetterBoard imageLetter={rand.letter}
                                           onSuccess={() => {
-                                            setScore(s => s + 1);
+                                            setWin(true);
                                             audioSuccess.play();
                                           }}
                                           onFailure={() => {
-                                            setScore(s => s - 1);
+                                            setWin(false);
                                             audioFailure.play()
                                           }}
                         />
@@ -99,4 +99,4 @@ export const Game = ({gameId, setScore}) => {
 
   )
 
-}
+};
