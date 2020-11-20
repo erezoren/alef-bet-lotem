@@ -1,15 +1,15 @@
 let express = require('express');
 let router = express.Router();
-
-
-
-const hardCodedData = [{id: 1, image: 'pokemon.jpg', name: 'פוקימון'},
-  {id: 2, image: 'soccer.jpg', name: 'כדורגל'},
-  {id: 3, image: 'bends.jpg', name: 'להקות'}]
+const repository = require('../repository/redisClient')
 
 router.get('/',
     function (req, res) {
-      res.json({topics: hardCodedData});
+      repository.getTopics((resp) => {
+        res.json({
+          topics: JSON.parse(resp)
+        })
+      })
+
     });
 
 module.exports = router;

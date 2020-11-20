@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/dist'));
 app.use(express.json());
 
 app.get('/api/', (req, res) => {
-  res.json({erez: "oren"});
+  res.json({erez: "oren2"});
 });
 app.use('/api/topics', topicsApi);
 app.use('/api/games', gameApi);
