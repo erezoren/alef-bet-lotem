@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="deploy">
-      <change afterPath="$PROJECT_DIR$/src/client/home/ScoreAnimatioin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/repository/gamesInitializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/repository/redisClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/repository/topicsInitializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/bends/ביטלס.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/bends/קווין.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/איוויזור.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/בלבאזור.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/גרנינג׳ה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/דיגלט-אלוליאני.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/הו_הו.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/וויזינג.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/זראורה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/טאפו-בולו.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/יאנגוס.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/לוקאריו.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/מגה-מיוטו-ווי.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/נייטלס-אלוליאני.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/סנדלסלאש-אלויאני.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/פויפול.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/צ׳רצ׳באג.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/קיוגר.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/רוקראף.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/שלדר.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/ת׳יבול.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/אגוארו.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/אמבפה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/בנזמה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/דה-בריינה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/דיבאלה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/טר-שטאגן.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/לבנדובסקי.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מודריץ׳.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מולר.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מסי.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/ניימאר.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/סוארס.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/סלאח.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/קורטואה.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/קיין.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/ראמוס.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/רונאלדו.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/subjects/bends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/subjects/pokemon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/subjects/soccer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/common/failure.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/common/success.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/common/success.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/א.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ב.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ג.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ד.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ה.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ו.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ז.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ח.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ט.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/י.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/כ.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ל.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/מ.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/נ.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ס.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ע.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/פ.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/צ.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ק.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ר.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ש.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sounds/ת.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/game/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/game/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routs/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routs/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routs/topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routs/topics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="package-lock.json" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,6 +43,7 @@
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="2" />
+          <entry key="svg" value="1" />
           <entry key="ts" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -146,6 +59,7 @@
           <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SVG" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="yarn.lock" value="7" />
         </counts>
@@ -206,10 +120,10 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/game/Game.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/games/alefbet/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="180">
               <caret line="12" column="38" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -218,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="1365">
               <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -301,6 +215,7 @@
       <find>getGames</find>
       <find>Score</find>
       <find>scor</find>
+      <find>game</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -335,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/style/App.css" />
         <option value="$PROJECT_DIR$/src/client/game/Game.js" />
         <option value="$PROJECT_DIR$/src/client/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/client/games/alefbet/Game.js" />
       </list>
     </option>
   </component>
@@ -392,14 +308,7 @@
               <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
@@ -443,7 +352,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605898409238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605898891545" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -465,6 +374,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/games/alefbet" />
       <recent name="$PROJECT_DIR$/src/style" />
       <recent name="$PROJECT_DIR$/src/client" />
     </key>
@@ -580,7 +490,7 @@
       <workItem from="1605440900546" duration="18987000" />
       <workItem from="1605516424507" duration="139000" />
       <workItem from="1605516950369" duration="19730000" />
-      <workItem from="1605679981899" duration="25051000" />
+      <workItem from="1605679981899" duration="25430000" />
     </task>
     <task id="LOCAL-00001" summary="added media">
       <created>1605454598214</created>
@@ -845,13 +755,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106199000" />
+    <option name="totallyTimeSpent" value="106578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6335175" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6335175" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Spock ADB" order="3" side_tool="true" />
@@ -867,7 +776,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43260187" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43260187" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -912,13 +821,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="deploy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/languageService/eslint/bin/eslint-plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/controllers/commonAxiosGateway.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1037,7 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/game/Letter.js">
+    <entry file="file://$PROJECT_DIR$/src/client/games/alefbet/Letter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="60" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="60" />
@@ -1047,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/game/LetterBoard.js">
+    <entry file="file://$PROJECT_DIR$/src/client/games/alefbet/LetterBoard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
@@ -1183,22 +1085,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/game/Game.js">
+    <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="1365">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/client/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/games/alefbet/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="38" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
