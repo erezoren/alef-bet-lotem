@@ -37,7 +37,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "react-spring": "^8.0.27",
     "redis": "^3.0.2",
     "redis-server": "^1.2.2",
     "style-loader": "^1.2.1",
