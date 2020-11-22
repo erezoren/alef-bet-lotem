@@ -1,11 +1,10 @@
 const redis = require("redis");
-const client = redis.createClient(process.env.REDIS_URL);
+const client = redis.createClient();
 const gamesInitializer = require('./gamesInitializer')
 const topicsInitializer = require('./topicsInitializer')
 const RedisServer = require('redis-server');
 
-// Simply pass the port that you want a Redis server to listen on.
-const server = new RedisServer(6379);
+const server = new RedisServer();
 
 server.open(async (err) => {
   if (err === null) {
