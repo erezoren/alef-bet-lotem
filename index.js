@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const topicsApi = require('./src/server/routs/topics');
 const gameApi = require('./src/server/routs/game');
-
+const repo=require('./src/server/repository/redisClient')
 const app = express();
 app.use(express.static(__dirname + '/dist'));
 app.use(express.json());
@@ -22,5 +22,7 @@ app.get('/error', (req, res) => {
 
 const port = process.env.PORT || 8080;
 app.listen(port);
+
+repo.init();
 
 console.log(`listening on ${port}`);

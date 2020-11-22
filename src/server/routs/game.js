@@ -4,19 +4,24 @@ const repository = require('../repository/redisClient')
 
 router.get('/:gameId',
     function (req, res) {
-      repository.getGames((resp) => {
+      const game=repository.getGames()
+      res.json({
+        game: JSON.parse(game)[req.params.gameId]
+      });
+
+      /*(resp) => {
         const game = JSON.parse(resp);
         if (game){
           res.json({
             game: game[req.params.gameId]
           });
-      }
-      else{
+        }
+        else{
           res.json({
             game: {}
           });
         }
-      })
+      }*/
 
     });
 

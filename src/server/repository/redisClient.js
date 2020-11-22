@@ -1,45 +1,52 @@
-const redis = require("redis");
-const client = redis.createClient();
+/*const redis = require("redis");
+const client = redis.createClient();*/
 const gamesInitializer = require('./gamesInitializer')
 const topicsInitializer = require('./topicsInitializer')
-const RedisServer = require('redis-server');
+//nconst RedisServer = require('redis-server');
+const NodeCache = require( "node-cache" );
+const lotemCache = new NodeCache();
 
-const server = new RedisServer();
 
-server.open(async (err) => {
+
+//const server = new RedisServer(6379);
+
+/*server.open(async (err) => {
   if (err === null) {
     await init()
   }
-});
+});*/
 
-client.on("error", function (error) {
+/*client.on("error", function (error) {
   console.error(error);
-});
+});*/
 
 async function init() {
   console.log("INIT TOPICS")
   const topics = JSON.stringify(topicsInitializer.getTopics())
-  client.set("topics", topics,
-      redis.print);
+  lotemCache.set("topics", topics,
+      0);
   console.log("INIT GAMES")
   const games = JSON.stringify(gamesInitializer.getGames());
-  client.set("games", games, redis.print)
+  lotemCache.set("games", games, 0)
 
 }
 
-function getGames(callback) {
-  return client.get("games", (err, response)  => {
+function getGames(/*callback*/) {
+  return lotemCache.get("games");
+  /*return lotemCache.get("games", (err, response)  => {
     callback(response);
-  });
+  });*/
 }
 
-function getTopics(callback) {
-  return client.get("topics", (err, response) => {
+function getTopics(/*callback*/) {
+  return lotemCache.get("topics");
+  /*return lotemCache.get("topics", (err, response) => {
     callback(response);
-  });
+  });*/
 }
 
 module.exports = {
   getGames: getGames,
   getTopics: getTopics,
+  init:init
 };

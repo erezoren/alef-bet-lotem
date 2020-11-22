@@ -4,11 +4,17 @@ const repository = require('../repository/redisClient')
 
 router.get('/',
     function (req, res) {
-      repository.getTopics((resp) => {
+
+      const topics=repository.getTopics();
+      res.json({
+        topics: JSON.parse(topics)
+      });
+
+      /*repository.getTopics((resp) => {
         res.json({
           topics: JSON.parse(resp)
         })
-      })
+      })*/
 
     });
 
