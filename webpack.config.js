@@ -4,7 +4,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 
 
-const outputDirectory = 'dist';
 
 module.exports = env => {
   return {
