@@ -7,14 +7,8 @@ router.get('/',
 
       const topics=repository.getTopics();
       res.json({
-        topics: JSON.parse(topics)
+        topics: topics
       });
-
-      /*repository.getTopics((resp) => {
-        res.json({
-          topics: JSON.parse(resp)
-        })
-      })*/
 
     });
 

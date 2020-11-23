@@ -1,9 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import API from "../../API";
 import {LetterBoard} from "./LetterBoard";
-import QuestionCircleOutlined
-  from "@ant-design/icons/es/icons/QuestionCircleOutlined";
-import {Tooltip} from "antd";
+import {Hint} from "./Hint";
 
 const baseSoundsDir = '../../../sounds/common/';
 const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
@@ -79,10 +77,7 @@ export const Game = ({gameId, setWin}) => {
                                             audioFailure.play()
                                           }}
                         />
-                          <Tooltip title={rand.hint}>
-                            <QuestionCircleOutlined/>
-                          </Tooltip>
-
+                          <Hint letter={rand.letter} title={rand.hint}/>
                         </div>
                       </div>
 
