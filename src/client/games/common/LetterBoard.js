@@ -1,12 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import {Letter} from "./Letter";
 import {Space} from "antd";
+import * as constants from "./constants";
 
-
-
-
-const letters = "אבגדהוזחטיכלמנסעפצקרשתםןץף".split('');
-export const LetterBoard = ({imageLetter, onSuccess,onFailure}) => {
+export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound}) => {
   const [success, setSuccess] = useState(null);
   const [letter, setLetter] = useState(null);
   const [status, setStatus] = useState(<h2>מהי האות?</h2>);
@@ -34,13 +31,14 @@ export const LetterBoard = ({imageLetter, onSuccess,onFailure}) => {
         <Space>
           {
 
-            letters.map((letter) => {
-                  return <Letter letter={letter} checkLetter={() => {
-                    setSuccess(imageLetter === letter)
-                    setLetter(letter)
-                  }
+            constants.lettersArray.map((letter) => {
+                  return <Letter letter={letter} withSound={withSound}
+                                 checkLetter={() => {
+                                   setSuccess(imageLetter === letter)
+                                   setLetter(letter)
+                                 }
 
-                  }/>
+                                 }/>
                 }
             )
           }
