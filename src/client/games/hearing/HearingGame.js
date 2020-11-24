@@ -58,13 +58,16 @@ export const HearingGame = ({setWin}) => {
             <img style={confettiRightStyle} src={confetti}/></>
         }
         {!success && randLetter &&
-        <><Hint letter={randLetter}
+        <>
+          <p style={{fontSize: "50px",color:"green"}}>לחצ/י כאן כדי לשמוע אות</p>
+          <Hint letter={randLetter}
                 icon={<PlayCircleTwoTone style={{fontSize: "90px"}}/>}
                 ttTitle={'לחצֿ/י לשמיעת האות'}/>
           <LetterBoard imageLetter={randLetter}
                        onSuccess={onSuccess}
                        onFailure={onFailure}
                        withSound={false}
+                       question={'מהי האות אותה שמענו?'}
           /></>}
       </>
   )

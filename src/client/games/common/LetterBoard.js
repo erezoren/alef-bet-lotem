@@ -3,10 +3,10 @@ import {Letter} from "./Letter";
 import {Space} from "antd";
 import * as constants from "./constants";
 
-export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound}) => {
+export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, question}) => {
   const [success, setSuccess] = useState(null);
   const [letter, setLetter] = useState(null);
-  const [status, setStatus] = useState(<h2>מהי האות?</h2>);
+  const [status, setStatus] = useState(<h2>{question}</h2>);
 
   useEffect(() => {
     if (success !== null) {
@@ -44,7 +44,7 @@ export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound}) => {
           }
 
         </Space>
-        <div>
+        <div style={{fontSize: "25px"}}>
           {
             status
           }

@@ -11,8 +11,8 @@ export const Letter = ({letter, checkLetter,withSound}) => {
 
   return (
       <div>
-        <Button type="primary" size={'large'} onClick={checkLetter} block>
-          <h3>{letter}</h3>
+        <Button  size={'large'} onClick={checkLetter} block>
+          <h2>{letter}</h2>
         </Button>
         {withSound &&<Button type="primary" shape="circle" size={'small'}
                 icon={<SoundOutlined/>} onClick={playLetter}/>}

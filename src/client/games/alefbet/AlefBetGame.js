@@ -107,6 +107,7 @@ export const AlefBetGame = ({gameId, setWin}) => {
                                           onSuccess={onSuccess}
                                           onFailure={onFailure}
                                           withSound={true}
+                                          question={'מהי האות הראשונה של מה או מי שבתמונה?'}
                         />
 
                         </div>
