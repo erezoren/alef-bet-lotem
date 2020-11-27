@@ -37,7 +37,7 @@ export const Home = (props) => {
         <Content style={{padding: '0 50px'}}>
           <Breadcrumb style={{margin: '16px 0'}}>
             <Breadcrumb.Item>בית</Breadcrumb.Item>
-            <Breadcrumb.Item>אלפבית</Breadcrumb.Item>
+            <Breadcrumb.Item>{page==1?'תמונה':'שמיעה'}</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-content">
             <Title>ברוכים הבאים לאלף-בית-לוטם</Title>
