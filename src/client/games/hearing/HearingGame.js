@@ -5,6 +5,8 @@ import {Hint} from "../common/Hint";
 import * as constants from "../common/constants";
 import {getRandomArbitrary} from "../common/utils";
 import PlayCircleTwoTone from "@ant-design/icons/es/icons/PlayCircleTwoTone";
+import {Button} from "antd";
+import {tts} from "../../tts";
 
 const baseSoundsDir = '../../../../sounds/common/';
 const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
@@ -59,7 +61,8 @@ export const HearingGame = ({setWin}) => {
         }
         {!success && randLetter &&
         <>
-          <p style={{fontSize: "50px",color:"green"}}>לחצ/י כאן כדי לשמוע אות</p>
+          <p style={{fontSize: "50px", color: "green"}}>לחצ/י כאן כדי לשמוע
+            אות</p>
           <Hint letter={randLetter}
                 icon={<PlayCircleTwoTone style={{fontSize: "90px"}}/>}
                 ttTitle={'לחצֿ/י לשמיעת האות'}/>

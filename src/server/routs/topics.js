@@ -2,7 +2,7 @@ let express = require('express');
 let router = express.Router();
 const repository = require('../repository/redisClient')
 
-router.get('/',
+router.get('/alefbet/',
     function (req, res) {
 
       const topics=repository.getTopics();

@@ -2,18 +2,24 @@ const gamesInitializer = require('./gamesInitializer')
 const topicsInitializer = require('./topicsInitializer')
 const NodeCache = require("node-cache");
 const lotemCache = new NodeCache();
+const serverConsts = require('../constants/server_constants')
 
 async function init() {
   console.log("INIT TOPICS")
   lotemCache.set("topics", topicsInitializer.getTopics(),
       10000);
   console.log("INIT GAMES")
-  lotemCache.set("games", gamesInitializer.getGames(), 10000)
+  lotemCache.set(serverConsts.ALEFBET,
+      gamesInitializer.getGames(serverConsts.ALEFBET),
+      10000);
+  lotemCache.set(serverConsts.SPELLING,
+      gamesInitializer.getGames(serverConsts.SPELLING),
+      10000)
 
 }
 
-function getGames() {
-  return lotemCache.get("games");
+function getGames(name) {
+  return lotemCache.get(name);
 }
 
 function getTopics() {

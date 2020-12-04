@@ -27,7 +27,7 @@ export const AlefBetGame = ({gameId, setWin}) => {
 
   const getGame = async () => {
     return API.get(
-        `/games/${gameId}`,
+        `/games/alefbet/${gameId}`,
     )
     .then((response) => {
           if (response.data.game) {
@@ -96,7 +96,7 @@ export const AlefBetGame = ({gameId, setWin}) => {
             <h1>
               {game ? (game === NO_DATA ? "אין מידע למשחק" : <div>
                         <div style={{display: "inline-flex"}}>
-                          <Hint letter={rand.letter} title={rand.hint}
+                          <Hint letter={rand.letter} title={rand.hint} text={rand.hint}
                                 icon={<QuestionCircleOutlined size={'small'}/>}
                                 ttTitle={'רמז'}/>
                           <img

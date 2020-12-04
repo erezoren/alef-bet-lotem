@@ -1,12 +1,18 @@
 import {Button, Tooltip} from "antd";
 import React from "react";
+import {tts} from "../../tts";
 
 const baseSoundsDir = '../../../sounds/'
 
-export const Hint = ({letter, icon,ttTitle}) => {
+export const Hint = ({letter, icon, ttTitle, text}) => {
   const audio = new Audio(`${baseSoundsDir}${letter}.mp3`);
   const playLetter = () => {
-    audio.play()
+    if (text) {
+      tts(text)
+    }
+    else {
+      audio.play()
+    }
   }
 
   return (

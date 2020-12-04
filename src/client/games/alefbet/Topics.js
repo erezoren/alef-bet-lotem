@@ -17,7 +17,7 @@ export const Topics = ({setGameId}) => {
 
   const getTopics = async () => {
     return API.get(
-        '/topics/',
+        '/topics/alefbet/',
     )
     .then((response) => {
           if (response.data.topics) {
