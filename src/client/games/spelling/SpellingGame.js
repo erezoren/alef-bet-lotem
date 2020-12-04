@@ -6,9 +6,7 @@ import QuestionCircleOutlined
 import API from "../../API";
 import * as constants from "../common/constants";
 import {Confetti} from "../common/Confetti";
-
-const baseSoundsDir = '../../../../sounds/common/';
-const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
+import '../../../style/styles.css'
 
 const NO_DATA = "NO_DATA";
 
@@ -83,7 +81,7 @@ export const SpellingGame = ({setWin}) => {
         letterRefs[idx].current.style.color = 'black';
         letterRefs[idx].current.value = event.key;
         if (idx == 0) {
-          setSuccess(true);
+          setSuccess(randomWord);
           playSuccess();
 
           setTimeout(() => {
@@ -93,7 +91,7 @@ export const SpellingGame = ({setWin}) => {
         try {
           setTimeout(() => {
             letterRefs[idx - 1].current.focus();
-          }, 100)
+          }, 10)
         }
         catch (e) {
           letterRefs[letterRefs.length - 1].current.focus();
@@ -106,7 +104,6 @@ export const SpellingGame = ({setWin}) => {
       }
     }
     else {
-      debugger
       setTimeout(() => {
         letterRefs[idx].current.value = '';
       }, 100)
@@ -127,7 +124,10 @@ export const SpellingGame = ({setWin}) => {
   return (
       <>
         {
-          success && <Confetti/>
+          success && <div>
+            <div className={'word'}><h2>{success}</h2></div>
+            <Confetti/>
+          </div>
         }
 
         {!success && randomImage && <div>
