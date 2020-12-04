@@ -2,14 +2,11 @@ import React, {useEffect, useState} from 'react'
 import API from "../../API";
 import {LetterBoard} from "../common/LetterBoard";
 import {Hint} from "../common/Hint";
-import confetti from '../../../../images/confeti.gif'
-import {getRandomArbitrary} from "../common/utils";
+import {getRandomArbitrary, playFailure, playSuccess} from "../common/utils";
 import QuestionCircleOutlined
   from "@ant-design/icons/es/icons/QuestionCircleOutlined";
+import {Confetti} from "../common/Confetti";
 
-const baseSoundsDir = '../../../../sounds/common/';
-const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
-const audioFailure = new Audio(`${baseSoundsDir}failure.mp3`);
 const NO_DATA = "NO_DATA";
 
 export const AlefBetGame = ({gameId, setWin}) => {
@@ -60,7 +57,7 @@ export const AlefBetGame = ({gameId, setWin}) => {
   const onSuccess = () => {
     setWin(true);
     setSuccess(true);
-    audioSuccess.play();
+    playSuccess();
 
     setTimeout(() => {
       setSuccess(undefined);
@@ -70,33 +67,23 @@ export const AlefBetGame = ({gameId, setWin}) => {
   const onFailure = () => {
     setWin(false);
     setSuccess(false);
-    audioFailure.play();
+    playFailure();
   }
 
   let rand = randomLetter();
 
-  const confettiLeftStyle = {
-    position: "relative",
-    width: "1000px",
-    display: "flex"
-  }
-
-  const confettiRightStyle = {
-    position: "relative",
-    width: "1000px",
-  }
   return (
       <div>
         {
-          success && <><img style={confettiLeftStyle} src={confetti}/>
-            <img style={confettiRightStyle} src={confetti}/></>
+          success && <Confetti/>
         }
         {!success && <div>
           {
             <h1>
               {game ? (game === NO_DATA ? "אין מידע למשחק" : <div>
                         <div style={{display: "inline-flex"}}>
-                          <Hint letter={rand.letter} title={rand.hint} text={rand.hint}
+                          <Hint letter={rand.letter} title={rand.hint}
+                                text={rand.hint}
                                 icon={<QuestionCircleOutlined size={'small'}/>}
                                 ttTitle={'רמז'}/>
                           <img

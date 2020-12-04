@@ -1,17 +1,10 @@
 import {LetterBoard} from "../common/LetterBoard";
 import React, {useEffect, useState} from "react";
-import confetti from "../../../../images/confeti.gif";
 import {Hint} from "../common/Hint";
 import * as constants from "../common/constants";
-import {getRandomArbitrary} from "../common/utils";
+import {getRandomArbitrary, playFailure, playSuccess} from "../common/utils";
 import PlayCircleTwoTone from "@ant-design/icons/es/icons/PlayCircleTwoTone";
-import {Button} from "antd";
-import {tts} from "../../tts";
-
-const baseSoundsDir = '../../../../sounds/common/';
-const audioSuccess = new Audio(`${baseSoundsDir}success.mp3`);
-const audioFailure = new Audio(`${baseSoundsDir}failure.mp3`);
-const NO_DATA = "NO_DATA";
+import {Confetti} from "../common/Confetti";
 
 export const HearingGame = ({setWin}) => {
   const [success, setSuccess] = useState(undefined)
@@ -19,12 +12,12 @@ export const HearingGame = ({setWin}) => {
 
   useEffect(() => {
     setRandLatter(randomLetter())
-  });
+  },[success]);
 
   const onSuccess = () => {
     setWin(true);
     setSuccess(true);
-    audioSuccess.play();
+    playSuccess()
 
     setTimeout(() => {
       setSuccess(undefined);
@@ -34,7 +27,7 @@ export const HearingGame = ({setWin}) => {
   const onFailure = () => {
     setWin(false);
     setSuccess(false);
-    audioFailure.play();
+    playFailure();
   }
 
   const randomLetter = () => {
@@ -42,22 +35,10 @@ export const HearingGame = ({setWin}) => {
         constants.lettersArray.length - 1)];
   };
 
-  const confettiLeftStyle = {
-    position: "relative",
-    width: "1000px",
-    display: "flex"
-  }
-
-  const confettiRightStyle = {
-    position: "relative",
-    width: "1000px",
-  }
-
   return (
       <>
         {
-          success && <><img style={confettiLeftStyle} src={confetti}/>
-            <img style={confettiRightStyle} src={confetti}/></>
+          success && <Confetti/>
         }
         {!success && randLetter &&
         <>

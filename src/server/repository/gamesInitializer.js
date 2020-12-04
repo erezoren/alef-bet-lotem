@@ -1,7 +1,7 @@
 const serverConsts = require('../constants/server_constants')
 const fs = require('fs')
 const path = require('path');
-const baseMediaLocationDir = '../../../images/games/alefbet/'
+const baseMediaLocationDir = '../../../images/games'
 const idToMediaLocationMap = {
   1: "pokemon",
   2: "soccer",
@@ -32,7 +32,7 @@ function initAlfBet() {
     for (const file of files) {
       if (!games[key]) {
         games[key] = {
-          mediaLocation: `${baseMediaLocationDir}${folder}`,
+          mediaLocation: `${baseMediaLocationDir}/alefbet/${folder}`,
           images: []
         }
       }
@@ -45,7 +45,7 @@ function initAlfBet() {
 }
 
 function initSpelling() {
-  let spellingResponse = {mediaLocation: baseMediaLocationDir, words: []};
+  let spellingResponse = {mediaLocation: `${baseMediaLocationDir}/spelling`, words: []};
   let filePath = path.join(__dirname, '..', '..', '..', 'images', 'games',
       'spelling');
   const files = fs.readdirSync(filePath, "utf-8");
