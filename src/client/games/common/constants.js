@@ -1,1 +1,1 @@
-export const lettersArray = "אבגדהוזחטיכלמנסעפצקרשתםןץף".split('');
+export const lettersArray = "אבגדהוזחטיכלמנסעפצקרשתםןץףך".split('');
