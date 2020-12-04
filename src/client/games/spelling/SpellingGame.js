@@ -105,7 +105,23 @@ export const SpellingGame = ({setWin}) => {
         playFailure();
       }
     }
+    else {
+      debugger
+      setTimeout(() => {
+        letterRefs[idx].current.value = '';
+      }, 100)
 
+    }
+
+  }
+
+  const LetterInput = ({lr, idx}) => {
+
+    return (<input autoFocus maxLength="1" type={'text'} ref={lr}
+                   style={squareStyle}
+                   onKeyDown={(e) => focusNextLetter(e,
+                       idx)}
+    ></input>)
   }
 
   return (
@@ -124,11 +140,7 @@ export const SpellingGame = ({setWin}) => {
           <div style={containerStyle}>
             {
               letterRefs.map((lr, idx) => {
-                return <input autofocus maxLength="1" type={'text'} ref={lr}
-                              style={squareStyle}
-                              onKeyDown={(e) => focusNextLetter(e,
-                                  idx)}
-                ></input>
+                return <LetterInput lr={lr} idx={idx}/>
               })
 
             }
