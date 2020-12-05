@@ -50,7 +50,7 @@ export const Welcome = () => {
             <br/>
             עם הזמן יתווסף תוכן נוסף ומשחקים שונים ברמות שונות
           </Paragraph>
-          <img style={{width:"500px"}} src={lotem}/>
+          <img style={{width:"40%",zIndex:"10",position:"relative"}} src={lotem}/>
         </div>
 
       </div>
