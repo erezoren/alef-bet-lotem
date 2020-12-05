@@ -2,14 +2,13 @@ const express = require('express');
 const path = require('path');
 const topicsApi = require('./src/server/routs/topics');
 const gameApi = require('./src/server/routs/game');
-
+const repo=require('./src/server/repository/redisClient')
 const app = express();
-
-app.use(express.static('dist'));
+app.use(express.static(__dirname + '/dist'));
 app.use(express.json());
 
 app.get('/api/', (req, res) => {
-  res.json({erez: "oren"});
+  res.json({erez: "oren2"});
 });
 app.use('/api/topics', topicsApi);
 app.use('/api/games', gameApi);
@@ -17,10 +16,13 @@ app.use('/api/games', gameApi);
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
 app.get('/error', (req, res) => {
+  console.error(JSON.stringify(res));
   res.sendFile(path.join(__dirname + '/src/client/build/index.html'));
 });
 
 const port = process.env.PORT || 8080;
 app.listen(port);
+
+repo.init();
 
 console.log(`listening on ${port}`);

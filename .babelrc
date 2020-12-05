@@ -1,5 +1,4 @@
 {
-
   "presets": [
     "@babel/preset-env",
     "@babel/preset-react"
@@ -20,7 +19,7 @@
             "infinity": true,
             "mangle": true,
             "memberExpressions": true,
-            "mergeVars": true,
+            "mergeVars": false,
             "numericLiterals": true,
             "propertyLiterals": true,
             "regexpConstructors": true,

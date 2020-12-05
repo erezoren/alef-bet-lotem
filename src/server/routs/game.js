@@ -1,31 +1,25 @@
+const serverConsts = require('../constants/server_constants')
+
 let express = require('express');
 let router = express.Router();
-const fs = require('fs')
-const path = require('path');
-const baseMediaLocationDir = ' ../../../images/games/'
-const idToMediaLocationMap={1:"pokemon",2:"soccer",3:"bends"}
+const repository = require('../repository/redisClient')
 
-let hardCodedGamesData = {}
-
-Object.keys(idToMediaLocationMap).map(key=>{
-  const folder=idToMediaLocationMap[key];
-  var filePath = path.join(__dirname, '..','..','..','images','games',folder);
-  const files = fs.readdirSync(filePath,"utf-8");
-  for (const file of files) {
-    if(!hardCodedGamesData[key]){
-      hardCodedGamesData[key]={mediaLocation:`${baseMediaLocationDir}${folder}`,images:[]}
-    }
-    hardCodedGamesData[key].images.push({image:file,letter:file.charAt(0)})
-    console.log(file)
-  }
-
-})
-
-
-
-router.get('/:gameId',
+router.get('/alefbet/:gameId',
     function (req, res) {
-      res.json({game: hardCodedGamesData[req.params.gameId]});
+      const game = repository.getGames(serverConsts.ALEFBET)
+      res.json({
+        game: game[req.params.gameId]
+      });
+
+    });
+
+router.get('/spelling/',
+    function (req, res) {
+      const game = repository.getGames(serverConsts.SPELLING)
+      res.json({
+        game: game
+      });
+
     });
 
 module.exports = router;

@@ -1,8 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
-const outputDirectory = 'dist';
+
 
 module.exports = env => {
   return {
@@ -60,6 +61,12 @@ module.exports = env => {
       new HtmlWebpackPlugin({
         template: './public/index.html',
         favicon: './public/favicon.ico'
+      }),
+      new CopyPlugin({
+        patterns: [
+          { from: "./images", to: "./images" },
+          { from: "./sounds", to: "./sounds" },
+        ],
       })
     ]
   }

@@ -1,88 +1,79 @@
 import React, {useEffect, useState} from "react";
-import Title from "antd/lib/typography/Title";
-import API from "../API";
-import {Button, Card, Divider} from "antd";
-import {Game} from "../game/Game";
+import {Breadcrumb, Layout, Menu} from "antd";
+import {Score} from "./Score";
+import {AlefBetContainer} from "../games/alefbet/AlefBetContainer";
+import {HearingContainer} from "../games/hearing/HearingContainer";
+import {SpellingContainer} from "../games/spelling/SpellingContainer";
+import {Welcome} from "./Welcome";
 
-const {Meta} = Card;
+const {Header, Content, Footer} = Layout;
 
 export const Home = (props) => {
 
-  const [topics, setTopics] = useState([]);
-  const [gameId, setGameId] = useState(null);
+  const [score, setScore] = useState(0);
+  const [page, setPageId] = useState("0");
+  const [bcName, setBcName] = useState("תמונה");
+  const [game, setGame] = useState(renderGame)
 
-  useEffect(() => {
-    getTopics().then((resp) => setTopics(resp))
-    return function cancel() {
-      setTopics([]);
+  const renderGame = () => {
+    switch (page) {
+      case "1":
+        return <AlefBetContainer setScore={setScore}/>;
+      case "2":
+        return <HearingContainer setScore={setScore}/>
+      case "3":
+        return <SpellingContainer setScore={setScore}/>
+      default:
+        return <Welcome/>
     }
 
-  }, [])
+  };
 
-  const getTopics = async () => {
-    return API.get(
-        '/topics/',
-    )
-    .then((response) => {
-          if (response.data.topics) {
-            return response.data.topics;
-          }
-          else {
-            throw Error("Error fetching topics")
-          }
-        }
-    )
-    .catch((e) => {
-      throw e;
-    })
-
-  }
-
-  const renderTopics = () => {
-
-    return <table style={{borderSpacing: "80px"}}>
-      <tr>
-
-        {
-
-          topics.map((topic, idx) => {
-
-            return <td>
-              <Card
-                  style={{width: 100}}
-                  bordered
-                  hoverable
-                  style={{width: 240}}
-                  cover={<img width={"300px"} alt="example"
-                              src={`../../../images/subjects/${topic.image}`}/>}
-              >
-                <Meta title={topic.name} description=""
-                      style={{fontSize: "50px"}}/>
-                <br/>
-                <Button
-                    type="primary" shape="round"
-                    onClick={() => setGameId(topic.id)}>שחק</Button>
-              </Card>
-
-            </td>
-
-          })
-
-        }
-      </tr>
-    </table>
-
-  }
+  useEffect(() => {
+    switch (page) {
+      case "1":
+        setBcName('תמונה');
+        break;
+      case "2":
+        setBcName('שמיעה');
+        break;
+      case "3":
+        setBcName('איות');
+        break
+      default:
+        setBcName('תמונה');
+        break
+    }
+    setGame(renderGame())
+  }, [page])
 
   return (
-      <div style={{display: "inline-block"}}>
-        <Title>ברוכים הבאים לאלף-בית-לוטם</Title>
-        {
-          renderTopics()
-        }
-        <Divider/>
-        {gameId && <Game gameId={gameId}/>}
-      </div>
+      <Layout style={{height: "1000px"}} className="layout">
+        <Header>
+          <div className="logo"/>
+          <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
+            <Menu.Item key="0"
+                       onClick={e => setPageId(e.key)}>בית</Menu.Item>
+            <Menu.Item key="1"
+                       onClick={e => setPageId(e.key)}>אלפבית</Menu.Item>
+            <Menu.Item key="2" onClick={e => setPageId(e.key)}>שמיעה</Menu.Item>
+            <Menu.Item key="3" onClick={e => setPageId(e.key)}>איות</Menu.Item>
+          </Menu>
+          <Score score={score}/>
+        </Header>
+        <Content style={{padding: '0 50px'}}>
+          <Breadcrumb style={{margin: '16px 0'}}>
+            <Breadcrumb.Item>בית</Breadcrumb.Item>
+            <Breadcrumb.Item>{bcName}</Breadcrumb.Item>
+          </Breadcrumb>
+          <div className="site-layout-content">
+            <div style={{display: "inline-block"}}>
+              {game}
+            </div>
+          </div>
+        </Content>
+        <Footer style={{textAlign: 'center'}}>Erez Oren ©2020</Footer>
+      </Layout>
   )
 
-}
+};
