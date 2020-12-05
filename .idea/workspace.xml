@@ -4,11 +4,383 @@
     <bookmark url="file://$USER_HOME$/git/cfebulk/cfebulkweb/src/main/java/com/ebay/cfe/BulkInsertCFEFlag.java" description="appendToMessageWithLineBreakTag(&quot;[ERROR] You are t..." line="196" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="improvements">
+    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/confeti.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/אוגר.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/אורנג-גוטנג.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/אריה.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/בז.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/ברדלס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/גורילה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/גמל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/ג׳ירפה.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/דבורה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/דג.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/דולפין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/זאב.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/זברה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/חזיר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/חתול.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/טווס.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/טוקן.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/טיגריס.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/טלה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/יונה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/ינשוף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/יען.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/כלב.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/לטאה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/למור.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/מדוזה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/נחש.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/עכביש.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/עכבר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/עצלן.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/פיל.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/פינגווין.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/פלמינגו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/פנדה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/פרה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/צב.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/צבוע.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/קוואלה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/קיפוד.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/קנגורו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/קרנף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/ראם.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/שועל.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/שפן.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/animals/תרנגול.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/bends/בוב-מארלי.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/bends/ג׳טרו-טאל.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אבומאסנו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אזלף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/איוולטל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אינפרנייפ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אלקטיבייר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אמביפום.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/אמפוליאון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/באדו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/באנירי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/באסטיאודון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בוויזל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בונסלי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בורמי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ביבארל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בידוף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בלסטויז.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ברונזונג.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ברונזור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גאבייט.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גאלייד.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גאסטרודון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גארצ'ומפ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גיבל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גליסקור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גלמיאו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גלסיאון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גרוטל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דאסקנואר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דדנה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דיאלגה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דראפיון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דריפבלים.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דריפלון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/הונצ'קרו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/היפאודון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/היפופוטס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/הפיני.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/וויבייל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/וורמאדאם.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/וינאזור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/וספיקווין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/זרניאס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טאנגרות'.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טוגקיס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טוקסיקרוק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טורטרה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טרטוויג.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/יאנמגה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/יוקסי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/לאקסיו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/לאקסריי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/לומיניאון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/לופאני.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ליפיאון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ליקיליקי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה אבומאסנו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה בידריל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה בלסטויז.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה גאלייד.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה גארצ'ומפ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה וינאזור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה לופאני.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה לוקאריו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה פידג'יוט.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה צ'ריזארד איקס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה צ'ריזארד וואי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגמורטאר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגנזון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מונפרנו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מות'ים.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מיאוסטיק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מיים ג'וניור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מיסמאגיוס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ממוסוויין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מנטייק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מנצ'לקס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מספריט.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סטאנקי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סטאראפטור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סטארביה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סטארלי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סנובר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ספיריטומב.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סקאנטנק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סקורופי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פאלקיה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פאצ'יריסו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פוראגלי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פוריגון זי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פורפרו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פיניאון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פיפלאפ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פלוטזל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פרובופאס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פרוסלאס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פרינפלאפ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'אטוט.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'ימצ'אר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'ינגלינג.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'רובי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'רים.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'רמיליון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ'רמנדר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קארבינק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קומבי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קטרפי.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קרוגאנק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קריינידוס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קריקטוט.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קריקטון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קרניביין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/רוזרייד.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/רוטום.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ריולו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/רייפיריור.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/רמפארדוס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/שילדון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/שינקס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/שלוס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/אננס.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/ארנק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/בננה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/בקבוק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/גיטרה.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/דג.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/הר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/ורד.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/זבל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/חלון.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/טבעת.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/יהלום.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/כובע.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/כיסא.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/כף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/כפית.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/לב.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/מזלג.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/מכונית.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/מספריים.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/נעל.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/סכין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/ספר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/עין.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/פרפר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/צעיף.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/קלשון.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/קנקן.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/רקדנית.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/שמפו.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/תיק.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/games/spelling/תמר.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lotem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/subjects/animals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/ך.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/ם.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/ן.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/ף.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/ץ.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/alefbet/AlefBetContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/alefbet/AlefBetGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/alefbet/Topics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/common/Confetti.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/common/Hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/common/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/hearing/HearingContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/hearing/HearingGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/client/home/Welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/tts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/constants/server_constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/repository/gamesInitializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/repository/redisClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/repository/topicsInitializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/colors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/plugin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/repo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/bends/ביטלס.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/bends/ביטלס.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/bends/קווין.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/bends/קווין.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/איוויזור.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/א.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/בלבאזור.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ב.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/גרנינג׳ה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ג.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/דיגלט-אלוליאני.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ד.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/הו_הו.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/הו_הו.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/וויזינג.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ו.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/זראורה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/זראורה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/טאפו-בולו.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/טאפו-בולו.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/יאנגוס.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/יאנגוס.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/לוקאריו.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/לוקאריו.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/מגה-מיוטו-ווי.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/מגה-מיוטו-ווי.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/נייטלס-אלוליאני.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/נייטלס-אלוליאני.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/סנדלסלאש-אלויאני.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/סנדלסלאש-אלויאני.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/פויפול.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/פויפול.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/צ׳רצ׳באג.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/צ׳רצ׳באג.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/קיוגר.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/קיוגר.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/רוקראף.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/רוקראף.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/שלדר.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/שלדר.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/pokemon/ת׳יבול.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/ת׳יבול.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/אגוארו.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/אגוארו.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/אמבפה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/אמבפה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/בנזמה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/בנזמה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/דה-בריינה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/דה-בריינה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/דיבאלה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/דיבאלה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/טר-שטאגן.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/טר-שטאגן.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/לבנדובסקי.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/לבנדובסקי.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מודריץ׳.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/מודריץ׳.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מולר.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/מולר.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/מסי.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/מסי.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/ניימאר.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/ניימאר.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/סוארס.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/סוארס.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/סלאח.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/סלאח.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/קורטואה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/קורטואה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/קיין.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/קיין.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/ראמוס.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/ראמוס.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/games/soccer/רונאלדו.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/soccer/רונאלדו.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/subjects/bends.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/subjects/pokemon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/subjects/soccer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/common/failure.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/common/success.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/common/success.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/א.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ב.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ג.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ד.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ה.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ו.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ז.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ח.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ט.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/י.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/כ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ל.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/מ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/נ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ס.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ע.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/פ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/צ.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ק.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ר.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ש.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sounds/ת.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/bends/ביטלס.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/bends/קווין.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/איוויזור.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/איוויזור.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/בלבאזור.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/בלבאזור.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/גרנינג׳ה.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/גרנינג׳ה.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/דיגלט-אלוליאני.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/דיגלט-אלוליאני.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/הו_הו.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/וויזינג.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/games/alefbet/pokemon/וויזינג.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/זראורה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/טאפו-בולו.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/יאנגוס.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/לוקאריו.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/מגה-מיוטו-ווי.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/נייטלס-אלוליאני.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/סנדלסלאש-אלויאני.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/פויפול.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/צ׳רצ׳באג.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/קיוגר.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/רוקראף.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/שלדר.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/pokemon/ת׳יבול.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/אגוארו.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/אמבפה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/בנזמה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/דה-בריינה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/דיבאלה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/טר-שטאגן.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/לבנדובסקי.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/מודריץ׳.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/מולר.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/מסי.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/ניימאר.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/סוארס.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/סלאח.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/קורטואה.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/קיין.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/ראמוס.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/games/soccer/רונאלדו.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/game/Game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/game/Letter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/games/common/Letter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/game/LetterBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/games/common/LetterBoard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/home/Score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/routs/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routs/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/routs/topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routs/topics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="package-lock.json" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +422,7 @@
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="15" />
-          <entry key="js" value="123" />
+          <entry key="js" value="125" />
           <entry key="json" value="12" />
           <entry key="lock" value="11" />
           <entry key="log" value="1" />
@@ -70,7 +442,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="19" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="123" />
+          <entry key="JavaScript" value="125" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -123,62 +495,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/home/Welcome.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/style/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/games/common/Confetti.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/API.js">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,11 +509,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/client/tts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/setupTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -345,6 +678,11 @@
             <path>
               <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
               <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,12 +703,6 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -387,7 +719,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607164875270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607164949816" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -549,28 +881,7 @@
       <workItem from="1606293885419" duration="444000" />
       <workItem from="1606328051758" duration="8992000" />
       <workItem from="1606745213477" duration="236000" />
-      <workItem from="1606801915004" duration="24761000" />
-    </task>
-    <task id="LOCAL-00012" summary="yarn lock del">
-      <created>1605591880265</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1605591880265</updated>
-    </task>
-    <task id="LOCAL-00013" summary="deploy">
-      <created>1605592002484</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1605592002484</updated>
-    </task>
-    <task id="LOCAL-00014" summary="deploy">
-      <created>1605592302692</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1605592302692</updated>
+      <workItem from="1606801915004" duration="25019000" />
     </task>
     <task id="LOCAL-00015" summary="deploy">
       <created>1605593127336</created>
@@ -894,15 +1205,35 @@
       <option name="project" value="LOCAL" />
       <updated>1607121178434</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="improvements">
+      <created>1607164775349</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1607164775349</updated>
+    </task>
+    <task id="LOCAL-00062" summary="improvements">
+      <created>1607164833809</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1607164833809</updated>
+    </task>
+    <task id="LOCAL-00063" summary="improvements">
+      <created>1607164955668</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1607164955668</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183417000" />
+    <option name="totallyTimeSpent" value="183675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72637796" visible="true" weight="0.2039072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -967,9 +1298,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="improvements" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/style/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/client/home/ScoreAnimatioin.js" />
     <entry file="file://$PROJECT_DIR$/src/client/home/Score.js">
@@ -1114,13 +1442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/tts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/common/Hint.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1220,16 +1541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1267,13 +1578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1298,6 +1602,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/tts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
