@@ -7,7 +7,6 @@ const {Title, Paragraph, Text, Link} = Typography;
 
 export const Welcome = () => {
   useEffect(()=>{
-    debugger
     const spans = document.querySelectorAll('.lotem span');
 
     spans.forEach((span, idx) => {

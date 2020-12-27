@@ -4,12 +4,10 @@
     <bookmark url="file://$USER_HOME$/git/cfebulk/cfebulkweb/src/main/java/com/ebay/cfe/BulkInsertCFEFlag.java" description="appendToMessageWithLineBreakTag(&quot;[ERROR] You are t..." line="196" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="image size">
-      <change afterPath="$PROJECT_DIR$/src/client/push/push-notifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/push/sw.js" afterDir="false" />
+    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/home/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Welcome.js" afterDir="false" />
     </list>
     <ignored path="package-lock.json" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +49,7 @@
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="15" />
-          <entry key="js" value="128" />
+          <entry key="js" value="130" />
           <entry key="json" value="12" />
           <entry key="lock" value="11" />
           <entry key="log" value="1" />
@@ -71,7 +69,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="19" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="128" />
+          <entry key="JavaScript" value="130" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -93,7 +91,7 @@
           <entry key="css" value="178" />
           <entry key="env" value="5" />
           <entry key="gitignore" value="42" />
-          <entry key="js" value="10341" />
+          <entry key="js" value="10436" />
           <entry key="json" value="409" />
           <entry key="txt" value="233" />
         </counts>
@@ -103,7 +101,7 @@
           <entry key="CSS" value="178" />
           <entry key="Git file" value="42" />
           <entry key="JSON" value="438" />
-          <entry key="JavaScript" value="10341" />
+          <entry key="JavaScript" value="10436" />
           <entry key="PLAIN_TEXT" value="238" />
         </counts>
       </usages-collector>
@@ -111,13 +109,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="304">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/home/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="720">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -192,7 +214,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>אין מיד</find>
       <find>setScore</find>
       <find>react-spring</find>
       <find>babel-loa</find>
@@ -222,6 +243,7 @@
       <find>randomLetter</find>
       <find>setWin</find>
       <find>word</find>
+      <find>debug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,13 +296,13 @@
         <option value="$PROJECT_DIR$/src/client/games/hearing/HearingGame.js" />
         <option value="$PROJECT_DIR$/src/client/games/common/constants.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" />
         <option value="$PROJECT_DIR$/src/style/styles.css" />
         <option value="$PROJECT_DIR$/src/style/home.css" />
         <option value="$PROJECT_DIR$/src/client/home/Welcome.js" />
         <option value="$PROJECT_DIR$/src/client/push/push-notifications.js" />
         <option value="$PROJECT_DIR$/src/client/push/sw.js" />
         <option value="$PROJECT_DIR$/src/client/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" />
       </list>
     </option>
   </component>
@@ -339,6 +361,21 @@
               <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="spelling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,7 +401,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609073051686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609088773625" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -527,14 +564,7 @@
       <workItem from="1606328051758" duration="8992000" />
       <workItem from="1606745213477" duration="236000" />
       <workItem from="1606801915004" duration="26579000" />
-      <workItem from="1609072660979" duration="384000" />
-    </task>
-    <task id="LOCAL-00019" summary="deploy">
-      <created>1605596519257</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1605596519257</updated>
+      <workItem from="1609072660979" duration="2696000" />
     </task>
     <task id="LOCAL-00020" summary="deploy">
       <created>1605596606394</created>
@@ -872,17 +902,24 @@
       <option name="project" value="LOCAL" />
       <updated>1607185716271</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="image size">
+      <created>1609073189369</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1609073189370</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185619000" />
+    <option name="totallyTimeSpent" value="187931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72440946" visible="true" weight="0.20634921" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7241867" visible="true" weight="0.20634921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Spock ADB" order="3" side_tool="true" />
@@ -890,7 +927,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="npm" order="8" sideWeight="0.27559054" side_tool="true" visible="true" weight="0.20634921" />
+      <window_info id="npm" order="8" sideWeight="0.27581328" side_tool="true" visible="true" weight="0.20634921" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32810867" />
@@ -898,7 +935,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4691745" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26123303" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -1142,13 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/alefbet/AlefBetGame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1167,13 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1247,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/home/Welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="720">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1264,10 +1287,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="304">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

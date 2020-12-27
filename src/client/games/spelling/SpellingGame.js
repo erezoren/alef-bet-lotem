@@ -32,7 +32,8 @@ export const SpellingGame = ({setWin}) => {
 
   const [randomImage, setRandomImage] = useState(null);
   const [randomWord, setRandomWord] = useState(null);
-  const [success, setSuccess] = useState(undefined)
+  const [success, setSuccess] = useState(undefined);
+  const [nonce, setNonce] = useState(0)
 
   const [letterRefs, setLetterRefs] = useState([]);
 
@@ -43,17 +44,19 @@ export const SpellingGame = ({setWin}) => {
       const randImage = words[getRandomArbitrary(0, words.length - 1)];
       const word = randImage.substr(0, randImage.indexOf("."));
       const refs = [];
+
+      setRandomImage(`${resp.mediaLocation}/${randImage}`)
+      setRandomWord(word);
+
       word.split('').map(letter => {
         refs.push(React.createRef());
       })
       setLetterRefs(refs);
-      setRandomImage(`${resp.mediaLocation}/${randImage}`)
-      setRandomWord(word);
+
     }).catch((err) => {
       console.error(err)
     });
-
-  }, [success])
+  }, [nonce])
 
   const getWords = async () => {
     return API.get(
@@ -82,6 +85,7 @@ export const SpellingGame = ({setWin}) => {
         letterRefs[idx].current.value = event.key;
         if (idx == 0) {
           setSuccess(randomWord);
+          setNonce(v => v + 1)
           playSuccess();
 
           setTimeout(() => {
@@ -112,14 +116,14 @@ export const SpellingGame = ({setWin}) => {
 
   }
 
-  const LetterInput = ({lr, idx}) => {
-
+  const LetterInput = React.memo(({lr, idx}) => {
+    console.log("LetterInput")
     return (<input autoFocus maxLength="1" type={'text'} ref={lr}
                    style={squareStyle}
                    onKeyDown={(e) => focusNextLetter(e,
                        idx)}
     ></input>)
-  }
+  })
 
   return (
       <>
