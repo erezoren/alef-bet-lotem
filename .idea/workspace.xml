@@ -48,18 +48,18 @@
           <entry key="env" value="1" />
           <entry key="gif" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="5" />
+          <entry key="html" value="6" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="15" />
-          <entry key="js" value="138" />
-          <entry key="json" value="13" />
+          <entry key="js" value="141" />
+          <entry key="json" value="14" />
           <entry key="lock" value="11" />
           <entry key="log" value="1" />
           <entry key="md" value="2" />
           <entry key="png" value="2" />
           <entry key="svg" value="1" />
           <entry key="ts" value="5" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -68,13 +68,13 @@
           <entry key="CSS" value="7" />
           <entry key="Enforced Plain Text" value="1" />
           <entry key="Git file" value="2" />
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="6" />
           <entry key="Image" value="19" />
-          <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="138" />
+          <entry key="JSON" value="14" />
+          <entry key="JavaScript" value="141" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="5" />
           <entry key="XML" value="1" />
@@ -93,20 +93,20 @@
           <entry key="css" value="178" />
           <entry key="env" value="5" />
           <entry key="gitignore" value="42" />
-          <entry key="html" value="38" />
-          <entry key="js" value="10439" />
+          <entry key="html" value="40" />
+          <entry key="js" value="10440" />
           <entry key="json" value="409" />
-          <entry key="txt" value="238" />
+          <entry key="txt" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="178" />
           <entry key="Git file" value="42" />
-          <entry key="HTML" value="38" />
+          <entry key="HTML" value="40" />
           <entry key="JSON" value="438" />
-          <entry key="JavaScript" value="10439" />
-          <entry key="PLAIN_TEXT" value="243" />
+          <entry key="JavaScript" value="10440" />
+          <entry key="PLAIN_TEXT" value="249" />
         </counts>
       </usages-collector>
     </session>
@@ -129,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -138,27 +138,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/API.js">
+        <entry file="file://$PROJECT_DIR$/public/manifest.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/games/hearing/HearingGame.js">
+        <entry file="file://$PROJECT_DIR$/src/client/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/games/hearing/HearingContainer.js">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -184,20 +202,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/games/common/Letter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stories/page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -242,8 +251,8 @@
       <find>word</find>
       <find>debug</find>
       <find>webpa</find>
-      <find>success</find>
       <find>.css</find>
+      <find>success</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,7 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/tree.txt" />
         <option value="$PROJECT_DIR$/src/client/game/LetterBoard.js" />
         <option value="$PROJECT_DIR$/static.json" />
@@ -264,7 +272,6 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/client/bypicture/ByPicture.js" />
         <option value="$PROJECT_DIR$/src/client/bypicture/Home.js" />
-        <option value="$PROJECT_DIR$/src/client/App.js" />
         <option value="$PROJECT_DIR$/src/client/games/alefbet/Game.js" />
         <option value="$PROJECT_DIR$/src/client/games/hearing/Hearing.js" />
         <option value="$PROJECT_DIR$/src/client/games/alefbet/AlefBet.js" />
@@ -301,8 +308,10 @@
         <option value="$PROJECT_DIR$/src/client/push/push-notifications.js" />
         <option value="$PROJECT_DIR$/src/client/push/sw.js" />
         <option value="$PROJECT_DIR$/src/client/home/Home.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js" />
+        <option value="$PROJECT_DIR$/src/client/App.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/client/index.js" />
       </list>
     </option>
   </component>
@@ -360,37 +369,6 @@
               <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
               <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-              <item name="hearing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-              <item name="spelling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stories" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -404,12 +382,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="webpack.config.&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/webpack.config.js&#10;conf&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/common/Confetti.js&#10;Ho&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pac&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;Hint&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/alefbet/Hint.js&#10;His&#9;null&#9;null&#10;re&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;םצק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;Hom&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pack&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;redisC&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;index.h&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/index.js&#10;index&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;App&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/App.js&#10;webpack.config.&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/webpack.config.js&#10;conf&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/common/Confetti.js&#10;Ho&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pac&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;Hint&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/alefbet/Hint.js&#10;His&#9;null&#9;null&#10;re&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;םצק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;Hom&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pack&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;redisC&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;index.h&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609091412434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609092354513" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -572,14 +550,7 @@
       <workItem from="1606328051758" duration="8992000" />
       <workItem from="1606745213477" duration="236000" />
       <workItem from="1606801915004" duration="26579000" />
-      <workItem from="1609072660979" duration="3644000" />
-    </task>
-    <task id="LOCAL-00021" summary="deploy">
-      <created>1605597259055</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1605597259055</updated>
+      <workItem from="1609072660979" duration="4148000" />
     </task>
     <task id="LOCAL-00022" summary="deploy">
       <created>1605597598376</created>
@@ -917,11 +888,18 @@
       <option name="project" value="LOCAL" />
       <updated>1609088807624</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="css">
+      <created>1609091451784</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1609091451785</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188879000" />
+    <option name="totallyTimeSpent" value="189383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -965,6 +943,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -990,26 +978,10 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/erezoren/alef-bet-lotem&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="image size" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="css" />
+    <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/star.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/cascading-config-array-factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="431" column="18" selection-start-line="431" selection-start-column="18" selection-end-line="431" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/removal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/@ant-design/icons/lib/icons/HistoryOutlined.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1054,13 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1177,13 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/tts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1248,40 +1206,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
+    <entry file="file://$PROJECT_DIR$/src/stories/page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/stories/Page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/API.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/hearing/HearingGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -1290,8 +1238,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/hearing/HearingContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,24 +1262,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stories/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stories/Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/games/common/Letter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/games/spelling/SpellingGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>

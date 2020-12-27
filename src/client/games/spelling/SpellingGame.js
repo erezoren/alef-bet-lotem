@@ -6,6 +6,7 @@ import QuestionCircleOutlined
 import API from "../../API";
 import * as constants from "../common/constants";
 import {Confetti} from "../common/Confetti";
+import '../../../style/styles.css'
 
 const NO_DATA = "NO_DATA";
 
