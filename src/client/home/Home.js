@@ -41,14 +41,14 @@ export const Home = (props) => {
         setBcName('איות');
         break
       default:
-        setBcName('תמונה');
+        setBcName('');
         break
     }
     setGame(renderGame())
   }, [page])
 
   return (
-      <Layout style={{height: "1000px"}} className="layout">
+      <Layout style={{height: "100%"}} className="layout">
         <Header>
           <div className="logo"/>
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']}>
