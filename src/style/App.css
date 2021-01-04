@@ -37,7 +37,7 @@
   }
 }
 
-.score{
+.score {
   background-image: url(../../images/star.png);
   background-position: center;
   background-size: 100px;
@@ -57,7 +57,9 @@
   min-height: 280px;
   padding: 24px;
   background: #fff;
+  overflow-y: scroll;
 }
+
 #components-layout-demo-top .logo {
   float: left;
   width: 120px;
@@ -65,7 +67,22 @@
   margin: 16px 24px 16px 0;
   background: rgba(255, 255, 255, 0.3);
 }
+
 .ant-row-rtl #components-layout-demo-top .logo {
   float: right;
   margin: 16px 0 16px 24px;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+  margin-left: 65%;
+}
+
+.game-wrap {
+  display: inline-block;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.ant-btn-icon-only{
+  border: 0;
 }

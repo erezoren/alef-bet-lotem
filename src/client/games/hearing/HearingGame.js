@@ -12,7 +12,7 @@ export const HearingGame = ({setWin}) => {
 
   useEffect(() => {
     setRandLatter(randomLetter())
-  },[success]);
+  }, [success]);
 
   const onSuccess = () => {
     setWin(true);
@@ -47,6 +47,7 @@ export const HearingGame = ({setWin}) => {
           <Hint letter={randLetter}
                 icon={<PlayCircleTwoTone style={{fontSize: "90px"}}/>}
                 ttTitle={'לחצֿ/י לשמיעת האות'}/>
+          <hr/>
           <LetterBoard imageLetter={randLetter}
                        onSuccess={onSuccess}
                        onFailure={onFailure}

@@ -3,9 +3,13 @@ const path = require('path');
 const topicsApi = require('./src/server/routs/topics');
 const gameApi = require('./src/server/routs/game');
 const repo=require('./src/server/repository/redisClient')
+//var socketserver = require('./socketserver');
 const app = express();
+
+
 app.use(express.static(__dirname + '/dist'));
 app.use(express.json());
+
 
 app.get('/api/', (req, res) => {
   res.json({erez: "oren2"});
@@ -22,6 +26,9 @@ app.get('/error', (req, res) => {
 
 const port = process.env.PORT || 8080;
 app.listen(port);
+debugger
+var botHttpServer = require('http').createServer(app);
+//socketserver(botHttpServer);
 
 repo.init();
 
