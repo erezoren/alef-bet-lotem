@@ -6,7 +6,6 @@ const initialState = {
 };
 
 export default produce((state, action) => {
-  console.log(action);
   switch(action.type) {
     case NEW_MESSAGE:
       state.messages.push(action.payload);
