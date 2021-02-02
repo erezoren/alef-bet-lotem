@@ -3,7 +3,7 @@ const path = require('path');
 const topicsApi = require('./src/server/routs/topics');
 const gameApi = require('./src/server/routs/game');
 const repo = require('./src/server/repository/redisClient')
-var socketServer = require('./socketserver');
+//var socketServer = require('./socketserver');
 const app = express();
 var cors = require('cors')
 const axios = require('axios');
@@ -32,9 +32,8 @@ app.get('/ack', (req, res) => {
 const port = process.env.PORT || 8080;
 console.log("Litening on port " + port)
 app.listen(port);
-debugger
-//var botHttpServer = require('http').createServer(app);
-socketServer(app);
+
+//socketServer(app);
 
 repo.init();
 

@@ -8,7 +8,7 @@ module.exports = function (app) {
 
 
 
-  const io = require('socket.io')(server, {
+  const io = require('/Users/eoren/alef-bet-lotem/node_modules/socket.io')(server, {
     cors: {
       origin: "http://localhost:3000",
       methods: ["GET", "POST"],
