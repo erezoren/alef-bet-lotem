@@ -42,8 +42,7 @@ export const Welcome = () => {
           <span>ם</span>
         </div>
 
-        <div style={{fontSize: "40px", dir: "rtl", textAlign: "right"}}>
-
+        <div className={"greeting"}>
           <Paragraph>
             באתר זה תמצאו משחקים שכתבתי בכדי לעזור ללוטם בני, שעלה לכיתה א׳
             , בלימוד האלף-בית

@@ -6,6 +6,7 @@ import {HearingContainer} from "../games/hearing/HearingContainer";
 import {SpellingContainer} from "../games/spelling/SpellingContainer";
 import {Welcome} from "./Welcome";
 import Chat from "../chat/Chat";
+import {Bot} from "../bot/Bot";
 
 const {Header, Content, Footer} = Layout;
 
@@ -26,6 +27,8 @@ export const Home = (props) => {
         return <SpellingContainer setScore={setScore}/>
       case "4":
         return <Chat/>
+      case "5":
+        return <Bot/>
       default:
         return <Welcome/>
     }
@@ -44,6 +47,9 @@ export const Home = (props) => {
         setBcName('איות');
       case "4":
         setBcName('צ׳ט');
+        break
+      case "5":
+        setBcName('בוט');
         break
       default:
         setBcName('');
@@ -64,6 +70,7 @@ export const Home = (props) => {
             <Menu.Item key="2" onClick={e => setPageId(e.key)}>שמיעה</Menu.Item>
             <Menu.Item key="3" onClick={e => setPageId(e.key)}>איות</Menu.Item>
             <Menu.Item key="4" onClick={e => setPageId(e.key)}>צ׳ט</Menu.Item>
+            <Menu.Item key="5" onClick={e => setPageId(e.key)}>בוט</Menu.Item>
           </Menu>
           <Score score={score}/>
         </Header>
