@@ -1,0 +1,4 @@
+export const FIREBASE_INIT = 'FIREBASE_INIT';
+export const RESET_MESSAGES = 'RESET_MESSAGES';
+export const RECEIVED_MESSAGE = 'RECEIVED_MESSAGE';
+export const NEW_MESSAGE = 'NEW_MESSAGE';

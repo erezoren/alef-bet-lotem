@@ -14,7 +14,7 @@ export const SpellingGame = ({setWin}) => {
 
   const containerStyle = {
     border: "black solid 1px",
-    display: "block"
+    display: "block",
   }
 
   const squareStyle = {
@@ -79,11 +79,11 @@ export const SpellingGame = ({setWin}) => {
 
   const focusNextLetter = (event, idx) => {
     if (constants.lettersArray.includes(event.key)) {
-      if (event.key === randomWord[randomWord.length - idx - 1]) {
+      if (event.key === randomWord[idx]) {
         setWin(true);
         letterRefs[idx].current.style.color = 'black';
         letterRefs[idx].current.value = event.key;
-        if (idx == 0) {
+        if (idx == randomWord.length-1) {
           setSuccess(randomWord);
           setNonce(v => v + 1)
           playSuccess();
@@ -94,11 +94,11 @@ export const SpellingGame = ({setWin}) => {
         }
         try {
           setTimeout(() => {
-            letterRefs[idx - 1].current.focus();
+            letterRefs[idx + 1].current.focus();
           }, 10)
         }
         catch (e) {
-          letterRefs[letterRefs.length - 1].current.focus();
+          letterRefs[letterRefs.length + 1].current.focus();
         }
       }
       else {
@@ -117,8 +117,7 @@ export const SpellingGame = ({setWin}) => {
   }
 
   const LetterInput = React.memo(({lr, idx}) => {
-    console.log("LetterInput")
-    return (<input autoFocus maxLength="1" type={'text'} ref={lr}
+    return (<input autoFocus={idx==0} maxLength="1" type={'text'} ref={lr}
                    style={squareStyle}
                    onKeyDown={(e) => focusNextLetter(e,
                        idx)}

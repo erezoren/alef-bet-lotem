@@ -5,6 +5,8 @@ import {AlefBetContainer} from "../games/alefbet/AlefBetContainer";
 import {HearingContainer} from "../games/hearing/HearingContainer";
 import {SpellingContainer} from "../games/spelling/SpellingContainer";
 import {Welcome} from "./Welcome";
+import Chat from "../chat/Chat";
+import {Bot} from "../bot/Bot";
 
 const {Header, Content, Footer} = Layout;
 
@@ -23,6 +25,10 @@ export const Home = (props) => {
         return <HearingContainer setScore={setScore}/>
       case "3":
         return <SpellingContainer setScore={setScore}/>
+      case "4":
+        return <Chat/>
+      case "5":
+        return <Bot/>
       default:
         return <Welcome/>
     }
@@ -39,6 +45,11 @@ export const Home = (props) => {
         break;
       case "3":
         setBcName('איות');
+      case "4":
+        setBcName('צ׳ט');
+        break
+      case "5":
+        setBcName('בוט');
         break
       default:
         setBcName('');
@@ -58,16 +69,18 @@ export const Home = (props) => {
                        onClick={e => setPageId(e.key)}>אלפבית</Menu.Item>
             <Menu.Item key="2" onClick={e => setPageId(e.key)}>שמיעה</Menu.Item>
             <Menu.Item key="3" onClick={e => setPageId(e.key)}>איות</Menu.Item>
+            <Menu.Item key="4" onClick={e => setPageId(e.key)}>צ׳ט</Menu.Item>
+            <Menu.Item key="5" onClick={e => setPageId(e.key)}>בוט</Menu.Item>
           </Menu>
           <Score score={score}/>
         </Header>
-        <Content style={{padding: '0 50px'}}>
+        <Content style={{padding: '0 50px', overflow: 'initial'}}>
           <Breadcrumb style={{margin: '16px 0'}}>
             <Breadcrumb.Item>בית</Breadcrumb.Item>
             <Breadcrumb.Item>{bcName}</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-content">
-            <div style={{display: "inline-block"}}>
+            <div className={'game-wrap'}>
               {game}
             </div>
           </div>
