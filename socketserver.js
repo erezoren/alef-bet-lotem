@@ -1,3 +1,4 @@
+/*
 module.exports = function (app) {
 
   var http = require('http');
@@ -33,3 +34,4 @@ module.exports = function (app) {
     });
   });
 }
+*/

@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socketserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/socketserver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/bot/Bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/bot/Bot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
     </list>
     <ignored path="package-lock.json" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +54,7 @@
           <entry key="html" value="10" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="15" />
-          <entry key="js" value="180" />
+          <entry key="js" value="182" />
           <entry key="json" value="20" />
           <entry key="lock" value="14" />
           <entry key="log" value="1" />
@@ -85,7 +77,7 @@
           <entry key="HTML" value="10" />
           <entry key="Image" value="19" />
           <entry key="JSON" value="19" />
-          <entry key="JavaScript" value="180" />
+          <entry key="JavaScript" value="182" />
           <entry key="Log" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
@@ -108,9 +100,9 @@
           <entry key="env" value="5" />
           <entry key="gitignore" value="42" />
           <entry key="html" value="70" />
-          <entry key="js" value="13181" />
+          <entry key="js" value="13261" />
           <entry key="json" value="428" />
-          <entry key="txt" value="248" />
+          <entry key="txt" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -119,28 +111,28 @@
           <entry key="Git file" value="42" />
           <entry key="HTML" value="70" />
           <entry key="JSON" value="457" />
-          <entry key="JavaScript" value="13181" />
-          <entry key="PLAIN_TEXT" value="253" />
+          <entry key="JavaScript" value="13261" />
+          <entry key="PLAIN_TEXT" value="276" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="75">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+        <entry file="file://$PROJECT_DIR$/src/client/bot/Bot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -150,15 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
@@ -193,11 +176,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/socketserver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -314,13 +306,13 @@
         <option value="$PROJECT_DIR$/src/client/redux/reducers/chatReducer.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/client/home/Home.js" />
-        <option value="$PROJECT_DIR$/socketserver.js" />
         <option value="$PROJECT_DIR$/src/client/bot/Bot.js" />
         <option value="$PROJECT_DIR$/src/client/home/Welcome.js" />
         <option value="$PROJECT_DIR$/src/style/home.css" />
         <option value="$PROJECT_DIR$/src/style/App.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/socketserver.js" />
       </list>
     </option>
   </component>
@@ -361,6 +353,51 @@
               <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
               <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alef-bet-lotem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alef-bet-lotem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -369,12 +406,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ind&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;inde&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/index.js&#10;Hom&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;socket&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/socketserver.js&#10;pa&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;ןמגק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;צקדד&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/chat/Messages.js&#10;index&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/index.js&#10;in&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;Mess&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/chat/Messages.js&#10;Ho&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;App&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/App.js&#10;webpack.config.&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/webpack.config.js&#10;conf&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/common/Confetti.js&#10;pac&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;Hint&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/alefbet/Hint.js&#10;His&#9;null&#9;null&#10;re&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;םצק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pack&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;redisC&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;index.h&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="index.html&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;ind&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;inde&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/index.js&#10;Hom&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;socket&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/socketserver.js&#10;pa&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;ןמגק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;צקדד&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/chat/Messages.js&#10;index&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/index.js&#10;in&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html&#10;Mess&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/chat/Messages.js&#10;Ho&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;App&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/App.js&#10;webpack.config.&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/webpack.config.js&#10;conf&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/common/Confetti.js&#10;pac&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;Hint&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/games/alefbet/Hint.js&#10;His&#9;null&#9;null&#10;re&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;םצק&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/client/home/Home.js&#10;pack&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/package.json&#10;redisC&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/src/server/repository/redisClient.js&#10;index.h&#9;FILE&#9;file:///Users/eoren/alef-bet-lotem/public/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611257823805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612289969628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -549,35 +586,7 @@
       <workItem from="1611251230461" duration="587000" />
       <workItem from="1611257967196" duration="124000" />
       <workItem from="1611400273561" duration="397000" />
-      <workItem from="1612285875616" duration="124000" />
-    </task>
-    <task id="LOCAL-00025" summary="deploy">
-      <created>1605598056404</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1605598056404</updated>
-    </task>
-    <task id="LOCAL-00026" summary="deploy">
-      <created>1605598506005</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1605598506005</updated>
-    </task>
-    <task id="LOCAL-00027" summary="deploy">
-      <created>1605598710894</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1605598710894</updated>
-    </task>
-    <task id="LOCAL-00028" summary="deploy">
-      <created>1605598872200</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1605598872200</updated>
+      <workItem from="1612285875616" duration="3175000" />
     </task>
     <task id="LOCAL-00029" summary="deploy">
       <created>1605599046479</created>
@@ -894,17 +903,45 @@
       <option name="project" value="LOCAL" />
       <updated>1609783860615</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="chat">
+      <created>1612286127541</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1612286127542</updated>
+    </task>
+    <task id="LOCAL-00075" summary="keepalive">
+      <created>1612287423257</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1612287423257</updated>
+    </task>
+    <task id="LOCAL-00076" summary="keepalive">
+      <created>1612288027381</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1612288027381</updated>
+    </task>
+    <task id="LOCAL-00077" summary="removed bot">
+      <created>1612288487018</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1612288487018</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254864000" />
+    <option name="totallyTimeSpent" value="257915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7001595" visible="true" weight="0.20879121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7001595" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Spock ADB" order="3" side_tool="true" />
@@ -920,7 +957,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3448276" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3448276" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -979,7 +1016,9 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="css" />
     <MESSAGE value="chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat" />
+    <MESSAGE value="keepalive" />
+    <MESSAGE value="removed bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed bot" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/client/setupTests.js">
@@ -1043,13 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1207,13 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/bot/Bot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/redux/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1225,13 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1266,13 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socketserver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/socket.io/dist/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
@@ -1294,10 +1305,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/bot/Bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-end-line="37" />
         </state>
       </provider>
     </entry>
