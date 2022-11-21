@@ -4,13 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/../cfebulk/cfebulkweb/src/main/java/com/ebay/cfe/BulkInsertCFEFlag.java" description="appendToMessageWithLineBreakTag(&quot;[ERROR] You are t..." line="196" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="">
+    <list default="true" id="a0198975-aa19-4cc3-ba47-ec1e6b809f9d" name="Default Changelist" comment="styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/games/common/Letter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/games/common/Letter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/games/common/LetterBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/games/common/LetterBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,14 +404,7 @@
       <workItem from="1643558094796" duration="193000" />
       <workItem from="1643707443889" duration="572000" />
       <workItem from="1644229676424" duration="1661000" />
-      <workItem from="1669050410984" duration="2025000" />
-    </task>
-    <task id="LOCAL-00030" summary="deploy">
-      <created>1605599832806</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1605599832806</updated>
+      <workItem from="1669050410984" duration="2972000" />
     </task>
     <task id="LOCAL-00031" summary="deploy">
       <created>1605601951659</created>
@@ -753,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669050752518</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="styling">
+      <created>1669054289640</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1669054289641</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -812,7 +808,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".env added" />
     <MESSAGE value="deploy3" />
     <MESSAGE value="deploy4" />
     <MESSAGE value="post build" />
@@ -837,7 +832,8 @@
     <MESSAGE value="keepalive" />
     <MESSAGE value="removed bot" />
     <MESSAGE value="removed engins" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed engins" />
+    <MESSAGE value="styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/client/setupTests.js">
