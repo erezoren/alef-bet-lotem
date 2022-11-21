@@ -26,3 +26,5 @@ package-lock.json
 .idea/workspace.xml
 
 .idea
+/dist/
+/yarn.lock
