@@ -85,7 +85,7 @@ export const Home = (props) => {
             </div>
           </div>
         </Content>
-        <Footer style={{textAlign: 'center'}}>Erez Oren ©2020</Footer>
+        <Footer style={{textAlign: 'center',padding: '11px 50px'}}>Erez Oren ©2020</Footer>
       </Layout>
   )
 

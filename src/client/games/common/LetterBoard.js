@@ -3,7 +3,13 @@ import {Letter} from "./Letter";
 import {Space} from "antd";
 import * as constants from "./constants";
 
-export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, question}) => {
+export const LetterBoard = ({
+  imageLetter,
+  onSuccess,
+  onFailure,
+  withSound,
+  question
+}) => {
   const [success, setSuccess] = useState(null);
   const [letter, setLetter] = useState(null);
   const [status, setStatus] = useState(<h4>{question}</h4>);
@@ -14,8 +20,7 @@ export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, quest
         setSuccess(null)
         onSuccess();
         setStatus(<h4>מהי האות?</h4>);
-      }
-      else {
+      } else {
         onFailure();
         setStatus(<div style={{display: "inline-block"}}>
           <h4
@@ -28,7 +33,7 @@ export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, quest
 
   return (
       <div style={{direction: "rtl"}}>
-        <Space>
+        <Space size={"small"}>
           {
 
             constants.lettersArray.map((letter) => {
@@ -44,7 +49,7 @@ export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, quest
           }
 
         </Space>
-        <div style={{fontSize: "25px"}}>
+        <div className={"question"}>
           {
             status
           }

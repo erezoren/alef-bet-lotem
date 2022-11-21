@@ -13,7 +13,7 @@ export const Letter = ({letter, checkLetter, withSound}) => {
   return (
       <div>
         <Button style={{border:"0px"}}  size={'large'} onClick={checkLetter} block>
-          <h2 style={{margin: '-10px'}}>{letter}</h2>
+          <h2 style={{marginRight: '-10px'}}>{letter}</h2>
         </Button>
         {withSound && <Button type="primary" shape="circle" size={'small'}
                               icon={<SoundOutlined/>} onClick={playLetter}/>}
