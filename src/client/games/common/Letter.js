@@ -11,11 +11,11 @@ export const Letter = ({letter, checkLetter, withSound}) => {
   }
 
   return (
-      <div>
-        <Button style={{border:"0px"}}  size={'large'} onClick={checkLetter} block>
+      <div style={{display:"inline-flex"}}>
+        <Button style={{border:"0px"}} onClick={checkLetter} block>
           <h2 style={{marginRight: '-10px'}}>{letter}</h2>
         </Button>
-        {withSound && <Button type="primary" shape="circle" size={'small'}
+        {withSound && <Button type="primary" shape="circle" size={'small'} style={{left:"60%"}}
                               icon={<SoundOutlined/>} onClick={playLetter}/>}
       </div>
 

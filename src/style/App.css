@@ -65,6 +65,7 @@ html {
   padding: 24px;
   background: #fff;
   overflow-y: scroll;
+  display: inline-grid;
 }
 
 #components-layout-demo-top .logo {
@@ -112,7 +113,7 @@ html {
 
 }
 
-.question h4 {
-  fontSize: 25px;
+.question p {
+  font-size: 15px;
   color: red;
 }

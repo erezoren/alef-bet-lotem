@@ -13,7 +13,6 @@ export const AlefBetContainer=({setScore})=>{
         <div>
           <Topics setGameId={setGameId}/>
         </div>
-        <Divider/>
         {gameId && <AlefBetGame setWin={(win) => {
           if (win) {
             setScore(s => s + 1);

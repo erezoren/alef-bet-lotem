@@ -1,60 +1,58 @@
 import React, {useEffect, useState} from 'react'
 import {Letter} from "./Letter";
-import {Space} from "antd";
 import * as constants from "./constants";
 
 export const LetterBoard = ({
-  imageLetter,
-  onSuccess,
-  onFailure,
-  withSound,
-  question
-}) => {
-  const [success, setSuccess] = useState(null);
-  const [letter, setLetter] = useState(null);
-  const [status, setStatus] = useState(<h4>{question}</h4>);
+                                imageLetter,
+                                onSuccess,
+                                onFailure,
+                                withSound,
+                                question
+                            }) => {
+    const [success, setSuccess] = useState(null);
+    const [letter, setLetter] = useState(null);
+    const [status, setStatus] = useState(<p>{question}</p>);
 
-  useEffect(() => {
-    if (success !== null) {
-      if (success) {
-        setSuccess(null)
-        onSuccess();
-        setStatus(<h4>מהי האות?</h4>);
-      } else {
-        onFailure();
-        setStatus(<div style={{display: "inline-block"}}>
-          <h4
-              style={{color: "red"}}>נסה שוב</h4>
-        </div>)
-      }
-    }
+    useEffect(() => {
+        if (success !== null) {
+            if (success) {
+                setSuccess(null)
+                onSuccess();
+                setStatus(<p>מהי האות?</p>);
+            } else {
+                onFailure();
+                setStatus(<div style={{display: "inline-block"}}>
+                    <h4
+                        style={{color: "red"}}>נסה שוב</h4>
+                </div>)
+            }
+        }
 
-  }, [success, letter])
+    }, [success, letter])
 
-  return (
-      <div style={{direction: "rtl"}}>
-        <Space size={"small"}>
-          {
-
-            constants.lettersArray.map((letter) => {
-                  return <Letter letter={letter} withSound={withSound}
-                                 checkLetter={() => {
-                                   setSuccess(imageLetter === letter)
-                                   setLetter(letter)
-                                 }
-
-                                 }/>
+    return (
+        <>
+            <div className={"question"}>
+                {
+                    status
                 }
-            )
-          }
+            </div>
+            <div style={{direction: "rtl", display: "inline-flex"}}>
 
-        </Space>
-        <div className={"question"}>
-          {
-            status
-          }
-        </div>
-      </div>
-  )
+                {
+                    constants.lettersArray.map((letter) => {
+                            return <Letter letter={letter} withSound={withSound}
+                                           checkLetter={() => {
+                                               setSuccess(imageLetter === letter)
+                                               setLetter(letter)
+                                           }
+
+                                           }/>
+                        }
+                    )
+                }
+            </div>
+        </>
+    )
 
 }
