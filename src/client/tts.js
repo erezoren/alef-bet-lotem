@@ -1,5 +1,5 @@
-var synth = window.speechSynthesis;
-var msg = new SpeechSynthesisUtterance();
+let synth = window.speechSynthesis;
+let msg = new SpeechSynthesisUtterance();
 msg.lang = 'he-IL';
 msg.rate = 10;
 

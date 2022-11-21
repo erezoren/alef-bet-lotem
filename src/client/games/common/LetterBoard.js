@@ -6,20 +6,20 @@ import * as constants from "./constants";
 export const LetterBoard = ({imageLetter, onSuccess, onFailure, withSound, question}) => {
   const [success, setSuccess] = useState(null);
   const [letter, setLetter] = useState(null);
-  const [status, setStatus] = useState(<h2>{question}</h2>);
+  const [status, setStatus] = useState(<h4>{question}</h4>);
 
   useEffect(() => {
     if (success !== null) {
       if (success) {
         setSuccess(null)
         onSuccess();
-        setStatus(<h2>מהי האות?</h2>);
+        setStatus(<h4>מהי האות?</h4>);
       }
       else {
         onFailure();
         setStatus(<div style={{display: "inline-block"}}>
-          <h2
-              style={{color: "red"}}>נסה שוב</h2>
+          <h4
+              style={{color: "red"}}>נסה שוב</h4>
         </div>)
       }
     }

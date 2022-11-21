@@ -18,7 +18,7 @@ export const Hint = ({letter, icon, ttTitle, text}) => {
   return (
       <div style={{margin: "16px"}}>
         <Tooltip title={ttTitle}>
-          <Button shape="circle"
+          <Button style={{border:"0px"}}  shape="circle"
                   icon={icon}
                   onClick={playLetter}/>
         </Tooltip>
